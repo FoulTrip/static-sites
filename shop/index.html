@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="subHeader">
+        <div class="imgHeader">
+          <img
+            class="iconHeader"
+            src="./assets/cesta-de-la-compra.png"
+            alt="cesta_compra"
+          />
+        </div>
+        <p class="nameShop">EzFood</p>
+        <div class="options">
+          <a class="option" href="./pages/contact.html">Contacto</a>
+        </div>
+      </div>
+    </nav>
+
+    <form action="./php/pedido.php" method="POST">
+      <div class="Instructions">
+        <div class="subInstruction">
+          <div class="subPayment">
+            <div class="boxPresentation">
+              <p>Efectivo</p>
+              <input type="checkbox" name="pago[]" value="efectivo" />
+              <hr />
+              <p>Tarjeta</p>
+              <input type="checkbox" name="pago[]" value="tarjeta" />
+            </div>
+          </div>
+          <div class="subPayment">
+            <div class="boxPresentation">
+              <p>Gaseosa</p>
+              <input type="checkbox" name="bebida[]" value="gaseosa" />
+              <hr />
+              <p>Jugo</p>
+              <input type="checkbox" name="bebida[]" value="jugo" />
+              <hr />
+              <p>Agua</p>
+              <input type="checkbox" name="bebida[]" value="agua" />
+              <hr />
+              <p>Nada</p>
+              <input type="checkbox" name="bebida[]" value="nada" />
+            </div>
+          </div>
+          <div class="subPayment">
+            <div class="boxPresentation">
+              <p>Domicilio</p>
+              <input type="checkbox" name="envio[]" value="domicilio" />
+              <hr />
+              <p>Presencial</p>
+              <input type="checkbox" name="envio[]" value="presencial" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="boxSeleccion">
+          <div class="subSeleccion">
+            <div class="boxPresentation">
+              <input type="checkbox" name="item[]" value="hamburguer" />
+              <p>Hamburguesa</p>
+            </div>
+          </div>
+          <div class="tableProduct">
+            <img class="iconEat" src="./assets/hamburguesa-con-queso.png" alt="hamburguesa" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="boxSeleccion">
+          <div class="subSeleccion">
+            <div class="boxPresentation">
+              <input type="checkbox" name="item[]" value="perro" />
+              <p>Perros</p>
+            </div>
+          </div>
+          <div class="tableProduct">
+            <img class="iconEat" src="./assets/perritos-calientes.png" alt="hamburguesa" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="boxSeleccion">
+          <div class="subSeleccion">
+            <div class="boxPresentation">
+              <input type="checkbox" name="item[]" value="salchipapa" />
+              <p>Salchipapa</p>
+            </div>
+          </div>
+          <div class="tableProduct">
+            <img class="iconEat" src="./assets/salchipapas.png" alt="hamburguesa" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="boxSeleccion">
+          <div class="subSeleccion">
+            <div class="boxPresentation">
+              <input type="checkbox" name="item[]" value="pizza" />
+              <p>Pizza</p>
+            </div>
+          </div>
+          <div class="tableProduct">
+            <img class="iconEat" src="./assets/pizza.png" alt="hamburguesa" />
+          </div>
+        </div>
+      </div>
+
+      <div class="btnProcess">
+        <button type="submit">Listo</button>
+      </div>
+    </form>
+  </body>
+</html>

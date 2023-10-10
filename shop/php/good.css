@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subBody {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxClass {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.agreeText {
+    font-size: 20px;
+    margin: 0;
+    display: grid;
+    place-content: center;
+}
+
+.icon {
+    width: 100px;
+    height: auto;
+}

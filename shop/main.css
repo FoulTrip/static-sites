@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+.subHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgHeader {
+    display: grid;
+    place-content: center;
+}
+
+.iconHeader {
+    width: 70px;
+    height: auto;
+}
+
+.nameShop {
+    font-size: 3em;
+    display: grid;
+    place-content: center;
+    color: #ff0000;
+    margin-right: 5%;
+}
+
+.Instructions {
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.subInstruction {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.payment {
+    display: flex;
+    flex-direction: row;
+}
+
+.subPayment {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background: #dad2d2;
+    padding: 5px 10px 5px 10px;
+    border-radius: 1em;
+}
+
+.options {
+    display: grid;
+    place-content: center;
+}
+
+.option {
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+}
+
+.option:hover {
+    background: #dad2d2;
+    border-radius: 1em;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    flex-basis: 200px;
+    flex-grow: 1;
+    background: #efe9e9;
+    padding: 10px;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.card:hover {
+    scale: 1.02;
+}
+
+.boxSeleccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+.subSeleccion {
+    display: grid;
+    place-content: center;
+}
+
+.subSeleccion p {
+    display: grid;
+    place-content: center;
+}
+
+.tableHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.tableHeader p {
+    display: grid;
+    place-content: center;
+}
+
+.tableProduct {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.iconEat {
+    width: 50px;
+    height: auto;
+}
+
+.boxPresentation {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.btnProcess {
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.btnProcess button {
+    border-radius: 1em;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.btnProcess button:hover {
+    scale: 1.02;
+}
+

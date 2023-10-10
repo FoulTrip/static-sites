@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.boxDetails {
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    place-content: center;
+}
+
+.deliveryBox {
+    display: grid;
+    place-content: center;
+}
+
+.subDelivery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.boxOne {
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    background: #edeaea;
+    border-radius: 1em;
+}
+
+.boxOne h1 {
+    color: crimson;
+}
+
+.boxSecond {
+    display: grid;
+    place-content: center;
+}
+
+.subSecond {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.subForm {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.btnForm {
+    display: grid;
+    place-content: center;
+}
+
+.box1 {
+    background: #edeaea;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.box2 {
+    background: #edeaea;
+}
+
+.box2 input {
+    padding: 5px;
+    border-radius: 3px;
+}

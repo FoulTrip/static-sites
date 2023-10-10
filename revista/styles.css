@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Lora&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background: #6B4423;
+}
+
+.boxOne {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    width: 90%;
+    margin-left: 5%;
+    gap: 10px;
+}
+
+.titleMain {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4vw;
+    color: #FFD700
+}
+
+.textMain {
+    font-family: 'Lora', serif;
+    color: #CCCCCC;
+    text-align: center;
+}
+
+.iconsBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 1em;
+}
+
+.iconBanner {
+    width: 12vw;
+    height: auto;
+}
+
+.iconBannerBuko {
+    width: 12vw;
+    height: auto;
+}
+
+.imgPost1 {
+    width: 100%;
+    height: auto;
+}
+
+.boxSecond {
+    min-height: 100vh;
+    background: #CCCCCC;
+}
+
+.supTitle {
+    text-align: center;
+    padding: 10px;
+    font-size: 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.firstSecc {
+    display: grid;
+    place-content: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.boxImage{
+    display: grid;
+    place-content: center;
+    margin-bottom: 3em;
+}
+
+.imgPost1 {
+    width: 500px;
+    height: auto;
+}
+
+.blockText {
+    font-size: 1.6vw;
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both
+}
+
+@media screen and (max-width: 900px) {
+    .blockText {
+        font-size: 4vw;
+    }
+
+    .imgPost1 {
+        width: 300px;
+        height: auto;
+    }
+
+    .supTitle {
+        font-size: 4vw;
+    }
+
+    .iconBannerBuko {
+        width: 25vw;
+    }
+}
